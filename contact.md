@@ -4,9 +4,7 @@ title: Contact K. Lin
 is_contact: true
 ---
 
-* Email: [leonard.keilin@gmail.com](mailto:leonard.keilin@gmail.com)
-
-* Phone: [+86-137 117 15601](tel:+86-137 117 15601)
+* Email: `leonard.keilin at gmail.com`
 
 * GitHub: [leonardodalinky](https://github.com/leonardodalinky)
 
