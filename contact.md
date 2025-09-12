@@ -4,7 +4,7 @@ title: Contact K. Lin
 is_contact: true
 ---
 
-* Email: `leonard.keilin at gmail.com`
+* Email: `leonard.keilin at gmail.com` / `klin07 at wm.edu`
 
 * GitHub: [leonardodalinky](https://github.com/leonardodalinky)
 
@@ -22,5 +22,6 @@ is_contact: true
 
 ## Social
 
-1. [Google+](https://scholar.google.com/citations?user=FPaobEgAAAAJ)
+1. [Google Scholar](https://scholar.google.com/citations?user=FPaobEgAAAAJ)
 2. [LinkedIn](https://linkedin.com/in/ke-lin-7890112b5/)
+3. [ORCID](https://orcid.org/0009-0002-5376-7881)
