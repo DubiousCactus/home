@@ -5,7 +5,7 @@ is_contact: true
 ---
 
 
-* Email: [theo \[dot]\ morales \[dot\] fr \[at\] gmail.com](https://mailhide.io/e/XLb3qiRc)
+* Email: theo \[dot\] morales \[dot\] fr \[at\] gmail.com / [mailhide](https://mailhide.io/e/XLb3qiRc)
 
 * GitHub: [DubiousCactus](https://github.com/DubiousCactus)
 
