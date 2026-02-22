@@ -1,7 +1,7 @@
 author: Théo Morales
 title: Théo Morales
 url: "https://theomorales.com"
-baseurl: "/researcher"
+baseurl: "/"
 description: "About Théo Morales"
 
 markdown: kramdown
