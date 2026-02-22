@@ -4,9 +4,7 @@ title: Contact K. Lin
 is_contact: true
 ---
 
-* Email: [leonard.keilin@gmail.com](mailto:leonard.keilin@gmail.com)
-
-* Phone: [+86-137 117 15601](tel:+86-137 117 15601)
+* Email: `leonard.keilin at gmail.com` / `klin07 at wm.edu`
 
 * GitHub: [leonardodalinky](https://github.com/leonardodalinky)
 
@@ -24,5 +22,12 @@ is_contact: true
 
 ## Social
 
-1. [Google+](https://scholar.google.com/citations?user=FPaobEgAAAAJ)
+1. [Google Scholar](https://scholar.google.com/citations?user=FPaobEgAAAAJ)
 2. [LinkedIn](https://linkedin.com/in/ke-lin-7890112b5/)
+3. [ORCID](https://orcid.org/0009-0002-5376-7881)
+
+## QR Code
+
+<div style="text-align:center">
+    <img src="img/homepage_qr.png" alt="QR Code To Homepage" style="max-width:256px;display:inline-block"/>
+</div>
