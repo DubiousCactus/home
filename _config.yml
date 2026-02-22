@@ -10,7 +10,7 @@ markdown: kramdown
 tracking_id: #
 
 footer: yes
-footer_url: "https://github.com/DubiousCactus"
+footer_url: "https://github.com/DubiousCactus/home"
 footer_text: "Page designed by Ankit Sultana, modified by K. Lin, and customized by Théo Morales"
 
 sass:
