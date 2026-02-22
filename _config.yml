@@ -1,8 +1,8 @@
-author: Ke Lin
-title: Ke Lin
-url: "https://leonardodalinky.github.io"
+author: Théo Morales
+title: Théo Morales
+url: "https://theomorales.com"
 baseurl: "/researcher"
-description: "About Ke Lin"
+description: "About Théo Morales"
 
 markdown: kramdown
 #ins_logo: "./bits-logo.png"
@@ -10,16 +10,18 @@ markdown: kramdown
 tracking_id: #
 
 footer: yes
-footer_url: "https://github.com/leonardodalinky"
-footer_text: "Page designed by Ankit Sultana and modified by K. Lin"
+footer_url: "https://github.com/DubiousCactus"
+footer_text: "Page designed by Ankit Sultana, modified by K. Lin, and customized by Théo Morales"
 
 sass:
   sass_dir: _sass
 
 nav:
   - name: "About"
-    link: "/researcher/"
+    link: "/"
   - name: "CV"
-    link: "CV_KeLin.pdf"
+    link: "CV_2026.pdf"
+  - name: "Blog"
+    link: "https://notes.theomorales.com"
   - name: "Contact"
     link: "contact"
