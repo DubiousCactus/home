@@ -1,7 +1,7 @@
 ---
+layout: default
 title: "Image generation for efficient neural network training in autonomous drone racing" 
 date: 2020-07-19
-url: /autonomous-drone-racing/
 aliases: 
     - /1.html
 tags: ["drone racing", "unmanned aerial vehicles", "deep learning", "convolutional neural networks", "semi-synthetic images generation"]
@@ -9,7 +9,7 @@ author: ["Théo Morales", "Andriy Sarabakha", "Erdal Kayacan"]
 description: "This work proposes a semi-synthetic dataset combining real backgrounds and 3D renders for training convolutional neural networks for drone racing gate detection." 
 summary: "Autonomous drone racing faces challenges with traditional gate detection due to varying conditions. This work proposes a semi-synthetic dataset combining real backgrounds and 3D renders for training convolutional neural networks for gate detection." 
 cover:
-    image: "/1.png"
+    image: "/img/pub/1.png"
     alt: "Semi-synthetic image generated from annotated background picture. A 3D render of a matched virtual scene is created with OpenGL, where the camera pose matches the one of the real camera used to take the background image. By using random picks from a dataset of base images annotated with their camera pose and by randomly positioning the desired meshes in the scene, an infinite amount of hybrid images can be produced."
     relative: false
 editPost:
@@ -17,6 +17,10 @@ editPost:
     Text: "IEEE"
 
 ---
+
+---
+
+# Image generation for efficient neural network training in autonomous drone racing
 
 ---
 
@@ -30,7 +34,15 @@ editPost:
 
 ##### Short video
 
-<iframe width="1920" height="885" src="https://www.youtube.com/embed/T4gJgPNdiH8" title="Image Generation for Efficient Neural Network Training in Autonomous Drone Racing" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; max-width: 800px; max-height: 450px;" 
+    src="https://www.youtube.com/embed/T4gJgPNdiH8" 
+    title="Image Generation for Efficient Neural Network Training in Autonomous Drone Racing" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen>
+  </iframe>
+</div>
 
 ---
 
@@ -42,26 +54,25 @@ Drone racing is a recreational sport in which the goal is to pass through a sequ
 
 ##### Figure 5: Semi-synthetic image generated from annotated background picture. A 3D render of a matched virtual scene is created with OpenGL, where the camera pose matches the one of the real camera used to take the background image. By using random picks from a dataset of base images annotated with their camera pose and by randomly positioning the desired meshes in the scene, an infinite amount of hybrid images can be produced.
 
-![](/1.png)
+![](/img/pub/1.png)
 ---
 
 ##### Citation
 
-Morales, Théo et al. “Image Generation for Efficient Neural Network Training in Autonomous Drone Racing.” *2020 International Joint Conference on Neural Networks (IJCNN) (2020)*: 1-8.
+Morales, Théo et al. "Image Generation for Efficient Neural Network Training in Autonomous Drone Racing." *2020 International Joint Conference on Neural Networks (IJCNN) (2020)*: 1-8.
 
-```BibTeX
-@article{Morales2020ImageGF,
+<div style="background-color: #2c3e50; padding: 15px; border-radius: 5px; margin: 15px 0;">
+<pre style="color: #ffffff; font-family: 'Inconsolata', monospace; font-size: 14px; line-height: 1.4; margin: 0; white-space: pre-wrap; overflow-x: auto;"><code>@article{Morales2020ImageGF,
   title={Image Generation for Efficient Neural Network Training in Autonomous Drone Racing},
   author={Th{\'e}o Morales and Andriy Sarabakha and Erdal Kayacan},
   journal={2020 International Joint Conference on Neural Networks (IJCNN)},
   year={2020},
   pages={1-8},
   url={https://api.semanticscholar.org/CorpusID:221005922}
-}
-```
+}</code></pre>
+</div>
 ---
 
 ##### Related material
 
 + [Presentation video](https://www.youtube.com/watch?v=YrR-pR9nDT0)
-

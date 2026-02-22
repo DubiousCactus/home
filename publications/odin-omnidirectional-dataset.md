@@ -1,7 +1,7 @@
 ---
+layout: default
 title: "ODIN: An OmniDirectional INdoor Dataset Capturing Activities of Daily Living From Multiple Synchronized Modalities" 
 date: 2023-06-10
-url: /ODIN/
 aliases: 
     - /3.html
 tags: ["Pose estimation", "Pipelines", "Cameras", "Physiology", "Recording", "Pattern recognition"]
@@ -13,6 +13,10 @@ editPost:
     Text: "2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)"
 
 ---
+
+---
+
+# ODIN: An OmniDirectional INdoor Dataset Capturing Activities of Daily Living From Multiple Synchronized Modalities
 
 ---
 
@@ -31,22 +35,22 @@ We introduce ODIN (the OmniDirectional INdoor dataset), the first large-scale mu
 ---
 
 ##### Figure 3: Overview of ODIN, a large-scale omnidirectional dataset for Human Behaviour Understanding – Each sequence is composed of the 3D scan of the recording location and omnidirectional RGB images as well as 5 extra modalities: (1) depth, (2) IR, (3) RGB images from side views, (4) RGB egocentric images and (5) biometric signals from a wearable device. Four of the five environments — kitchen, living room, bathroom, and bedroom — are represented in the figure (the activity room can be seen in Fig. 4).
-![](/3.png)
+![](/img/pub/3.png)
 
 ##### Citation
 
-Ravi, Siddharth et al. “ODIN: An OmniDirectional INdoor Dataset Capturing Activities of Daily Living From Multiple Synchronized Modalities” *2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW) (2023)*: 1-8.
+Ravi, Siddharth et al. "ODIN: An OmniDirectional INdoor Dataset Capturing Activities of Daily Living From Multiple Synchronized Modalities" *2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW) (2023)*: 1-8.
 
-```BibTeX
-@article{Ravi2023ODINAO,
+<div style="background-color: #2c3e50; padding: 15px; border-radius: 5px; margin: 15px 0;">
+<pre style="color: #ffffff; font-family: 'Inconsolata', monospace; font-size: 14px; line-height: 1.4; margin: 0; white-space: pre-wrap; overflow-x: auto;"><code>@article{Ravi2023ODINAO,
   title={ODIN: An OmniDirectional INdoor dataset capturing Activities of Daily Living from multiple synchronized modalities},
   author={Siddharth Ravi and Pau Climent-P{\'e}rez and Th{\'e}o Morales and Carlo Huesca-Spairani and Kooshan Hashemifard and Francisco Fl{\'o}rez-Revuelta},
   journal={2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)},
   year={2023},
   pages={6488-6497},
   url={https://api.semanticscholar.org/CorpusID:260913045}
-}
-```
+}</code></pre>
+</div>
 ---
 
 ##### Related material

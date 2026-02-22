@@ -1,7 +1,7 @@
 ---
+layout: default
 title: "A Versatile and Differentiable Hand-Object Interaction Representation" 
 date: 2024-11-28
-url: /CHOIR-WACV/
 aliases: 
     - /4.html
 tags: ["hand-object interaction", "3D representation", "diffusion model", "grasping"]
@@ -9,13 +9,17 @@ author: ["Théo Morales", "Omid Taheri", "Gerard Lacey"]
 description: "CHOIR is a differentiable representation for hand-object interaction. We demonstrate the representation’s usefulness on various tasks, including denoising and synthesis of hand-object interaction." 
 summary: "We present a Coarse Hand-Object Interaction Representation (CHOIR), a novel, versatile and fully differentiable field for HOI modelling. CHOIR leverages discrete unsigned distances for continuous shape and pose encoding, alongside multivariate Gaussian distributions to represent dense contact maps with few parameters. " 
 cover:
-    image: "/4_0.png"
+    image: "/img/pub/4_0.png"
     alt: "Semi-synthetic image generated from annotated background picture. A 3D render of a matched virtual scene is created with OpenGL, where the camera pose matches the one of the real camera used to take the background image. By using random picks from a dataset of base images annotated with their camera pose and by randomly positioning the desired meshes in the scene, an infinite amount of hybrid images can be produced."
 editPost:
     URL: "https://doi.org/10.48550/arXiv.2409.16855"
     Text: "2025 IEEE/CVF Winter Applications in Computer Vision (WACV)"
 
 ---
+
+---
+
+# A Versatile and Differentiable Hand-Object Interaction Representation
 
 ---
 
@@ -33,25 +37,25 @@ Synthesizing accurate hands-object interactions (HOI) is critical for applicatio
 ---
 
 ##### Figure 3: Architecture of JointDiffusion. The 3D U-Net predicts the noise sample epsilon_d for the hand distance field d_H. The contact prediction branch predicts the noise sample epsilon_c for the contact Gaussian parameters c_H from the features of the U-Net's bottleneck. This joint learning encourages the U-Net to extract features relevant to both tasks, enhancing the accuracy of the learned CHOIR distribution.
-![](/4.png)
+![](/img/pub/4.png)
 
 ##### Citation
 
 Morales, Théo et al. “A Versatile and Differentiable Hand-Object Interaction Representation” *2024 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) (2025)*: 1-8.
 
-```BibTeX
-@article{morales25CHOIR,
+<div style="background-color: #2c3e50; padding: 15px; border-radius: 5px; margin: 15px 0;">
+<pre style="color: #ffffff; font-family: 'Inconsolata', monospace; font-size: 14px; line-height: 1.4; margin: 0; white-space: pre-wrap; overflow-x: auto;"><code>@article{morales25CHOIR,
   author={Théo Morales and Omid Taheri and Gerard Lacey},
   title={A Versatile and Differentiable Hand-Object Interaction Representation},
   year={2025},
   journal={WACV},
   url={https://doi.org/10.48550/arXiv.2409.16855}
-}
-```
+}</code></pre>
+</div>
 ---
 
 ##### Related material
 
-+ [Project page](https://theomorales.com/CHOIR)
++ [Project page](https://dubiouscactus.github.io/CHOIR)
 <!-- + [Presentation video](https://www.youtube.com/watch?v=YrR-pR9nDT0) -->
 

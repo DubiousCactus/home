@@ -1,7 +1,7 @@
 ---
+layout: default
 title: "A new benchmark for group distribution shifts in hand grasp regression for object manipulation. Can meta-learning raise the bar?" 
 date: 2022-10-31
-url: /meta-learning-HOPE/
 aliases: 
     - /2.html
 tags: ["hand-object pose", "meta-learning", "test-time adaptation", "computer vision", "group distribution shifts", "dexycb", "grasping", "benchmark"]
@@ -13,6 +13,10 @@ editPost:
     Text: "Workshop on Distribution Shifts, 36th Conference on Neural Information Processing Systems (NeurIPS 2022)"
 
 ---
+
+---
+
+# A new benchmark for group distribution shifts in hand grasp regression for object manipulation. Can meta-learning raise the bar?
 
 ---
 
@@ -32,17 +36,18 @@ Understanding hand-object pose with computer vision opens the door to new applic
 
 ##### Citation
 
-Morales, Théo et al. “A new benchmark for group distribution shifts in hand grasp regression for object manipulation. Can meta-learning raise the bar?” *Workshop on Distribution Shifts, 36th Conference on Neural Information Processing Systems (NeurIPS 2022) (2022)*: 1-8.
+Morales, Théo et al. "A new benchmark for group distribution shifts in hand grasp regression for object manipulation. Can meta-learning raise the bar?" *Workshop on Distribution Shifts, 36th Conference on Neural Information Processing Systems (NeurIPS 2022) (2022)*: 1-8.
 
-```BibTeX
-@inproceedings{morales2022a,
+<div style="background-color: #2c3e50; padding: 15px; border-radius: 5px; margin: 15px 0;">
+<pre style="color: #ffffff; font-family: 'Inconsolata', monospace; font-size: 14px; line-height: 1.4; margin: 0; white-space: pre-wrap; overflow-x: auto;"><code>@inproceedings{morales2022a,
 title={A new benchmark for group distribution shifts in hand grasp regression for object manipulation. Can meta-learning raise the bar?},
 author={Th{\'e}o Morales and Gerard Lacey},
 booktitle={NeurIPS 2022 Workshop on Distribution Shifts: Connecting Methods and Applications},
 year={2022},
 url={https://openreview.net/forum?id=IKbA3QS7c8X}
-}
-```
+}</code></pre>
+</div>
+
 ---
 
 ##### Related material

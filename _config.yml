@@ -19,6 +19,14 @@ sass:
 collections:
   publications:
     output: true
+    permalink: /publications/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "publications"
+    values:
+      layout: "default"
 
 nav:
   - name: "About"
@@ -30,4 +38,4 @@ nav:
   - name: "Blog"
     link: "https://notes.theomorales.com"
   - name: "Contact"
-    link: "contact"
+    link: "/contact"
