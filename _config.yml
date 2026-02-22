@@ -16,11 +16,17 @@ footer_text: "Page designed by Ankit Sultana, modified by K. Lin, and customized
 sass:
   sass_dir: _sass
 
+collections:
+  publications:
+    output: true
+
 nav:
   - name: "About"
     link: "/"
   - name: "CV"
     link: "CV_2026.pdf"
+  - name: "Publications"
+    link: "/publications"
   - name: "Blog"
     link: "https://notes.theomorales.com"
   - name: "Contact"

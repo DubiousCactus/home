@@ -69,39 +69,16 @@ title: Théo Morales
 <!-- </div> -->
 <!-- <hr /> -->
 
-<h2>Publications</h2>
-
-<div class="publication">
-  <!-- <p>* denotes equal contribution.</p> -->
-  <!-- <div class="pub-block"> -->
-  <!--   <img src="img/paper/wm_collision.jpg" /> -->
-  <!--   <div class="pub-content-wrapper"> -->
-  <!--     <div class="pub-content"> -->
-  <!--       <div class="pub-innerblock"> -->
-  <!--         <div class="pub-title"><a href="https://arxiv.org/abs/2403.10020"> -->
-  <!--             Lost in Overlap: Exploring Logit-based Watermark Collision in LLMs -->
-  <!--           </a></div> -->
-  <!--         <div class="pub-author">Yiyang Luo*, <b><u>Ke Lin*</u></b>, Chao Gu*, Jiahui Hou, Lijie Wen, Ping Luo</div> -->
-  <!--         <div class="pub-conf">NAACL 2025 Findings</div> -->
-  <!--         <div> -->
-  <!--           <span class="pub-tag">CCF B</span> -->
-  <!--           <span class="pub-tag">CORE A</span> -->
-  <!--           <span class="pub-tag">Watermark</span> -->
-  <!--         </div> -->
-  <!--       </div> -->
-  <!--       <div class="pub-misc"> -->
-  <!--         <a href="https://github.com/AInnovateLab/watermark-collision" target="_blank">Code</a> -->
-  <!--         | -->
-  <!--         <a href="javascript:void(0);" onclick="javascript:toggle(wm_collision_abs);">Abstract</a> -->
-  <!--         | -->
-  <!--         <a href="https://ainnovatelab.github.io/watermark-collision/" target="_blank">Project Page</a> -->
-  <!--       </div> -->
-  <!--     </div> -->
-  <!--     <pre -->
-  <!--       id="wm_collision_abs">The proliferation of large language models (LLMs) in generating content raises concerns about text copyright. Watermarking methods, particularly logit-based approaches, embed imperceptible identifiers into text to address these challenges. However, the widespread use of watermarking across diverse LLMs has led to an inevitable issue known as watermark collision during common tasks like question answering and paraphrasing. This study focuses on dual watermark collisions, where two watermarks are present simultaneously in the same text. The research demonstrates that watermark collision poses a threat to detection performance for detectors of both upstream and downstream watermark algorithms.</pre> -->
-  <!--   </div> -->
-  <!-- </div> -->
-</div>
+<section id="publications">
+    <h2>Publications</h2>
+    <ul>
+        {% for publication in site.publications %}
+            <li>
+                <a href="{{ publication.url }}">{{ publication.title }}</a> - {{ publication.date }}
+            </li>
+        {% endfor %}
+    </ul>
+</section>
 
 <hr />
 
@@ -155,5 +132,3 @@ title: Théo Morales
     </div>
   </div>
 </div>
-
-
