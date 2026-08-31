@@ -5,6 +5,7 @@ baseurl: "/"
 description: "About Théo Morales"
 
 markdown: kramdown
+permalink: /blog/:title/
 #ins_logo: "./bits-logo.png"
 
 tracking_id: #

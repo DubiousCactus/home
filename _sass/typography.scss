@@ -284,6 +284,23 @@
         overflow: hidden;
     }
 
+    .post-meta {
+        color: #999;
+    }
+
+    ul.post-list {
+        list-style: none;
+        padding: 0 20px 0 0 !important;
+
+        li {
+            margin: 8px 0;
+
+            .post-meta {
+                margin-left: 8px;
+            }
+        }
+    }
+
     /* ***************
     *                *
     *    Projects    *
