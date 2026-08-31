@@ -283,4 +283,18 @@
     .publication #full-pub-list {
         overflow: hidden;
     }
+
+    /* ***************
+    *                *
+    *    Projects    *
+    *                *
+    *************** */
+    &.projects {
+        code {
+            color: #999;
+            background-color: transparent;
+            padding: 0;
+            font-size: smaller;
+        }
+    }
 }

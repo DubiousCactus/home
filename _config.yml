@@ -35,6 +35,8 @@ nav:
     link: "CV_2026.pdf"
   - name: "Publications"
     link: "/publications"
+  - name: "Projects"
+    link: "/projects"
   - name: "Blog"
     link: "/blog"
   - name: "Contact"
