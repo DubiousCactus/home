@@ -36,6 +36,6 @@ nav:
   - name: "Publications"
     link: "/publications"
   - name: "Blog"
-    link: "https://notes.theomorales.com"
+    link: "/blog"
   - name: "Contact"
     link: "/contact"
