@@ -6,9 +6,9 @@ is_blog: true
 
 ## Blog
 
-My blog is currently being migrated to a new home. 🚧
+My blog is live: [Learning to Learn](https://dubiouscactus.github.io/notes/) 📝
 
-All previous posts will be back online shortly. In the meantime, feel free to
-browse my [publications](/publications) or [get in touch](/contact).
+It is built with the [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)
+theme, personalized to match the look of my previous Obsidian Publish site.
 
-<!-- TODO: point to the new blog once the migration is done -->
+<!-- TODO: switch the link to https://notes.theomorales.com once the custom domain DNS is set up -->
